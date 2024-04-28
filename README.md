@@ -57,8 +57,41 @@ Creating a new Next.js app in C:\Users\james\OneDrive\Documents\Project\carlexot
 ================================================
 
 
+yarn run dev
+
+sfc
+fc
+rfc
+raf
+rafce
+
+#Extensions
+ES7 React/Redux/GraphQL/React-Native snippets
+v1
+
+================================================
+
+shadcn
+https://ui.shadcn.com/ -> Get started -> Installation -> Next.js
 
 
+https://ui.shadcn.com/docs/installation/next
 
 
+james@DawgzProg MINGW64 ~/OneDrive/Documents/Project/carlexotics (main)
+$ npx shadcn-ui@latest init
+Need to install the following packages:
+shadcn-ui@0.8.0
+Ok to proceed? (y) y
+√ Which style would you like to use? » Default
+√ Which color would you like to use as base color? » Slate
+√ Would you like to use CSS variables for colors? ... yes
 
+√ Writing components.json...
+√ Initializing project...
+√ Installing dependencies...
+
+Success! Project initialization completed. You may now add components.
+
+
+================================================
