@@ -9,8 +9,8 @@ export default function Home() {
     <div className="">
       <Carousels />
       <div className="relative">
-        <Explore />
-        <Subfooter />
+        {/* <Explore /> */}
+        {/* <Subfooter /> */}
         <OurObjective />
       </div>
     </div>

@@ -34,21 +34,21 @@ export const links = [
 // carousel array
 export const profile = [
   {
-    title: "Profile",
-    img: "/banner-1.jpg",
-    text: "Select your favored vehicle, timetable, and objective effortlessly. Secure your booking on the web now for a consistent encounter.",
+    title: "Speed",
+    img: "/banner/banner-1.jpg",
+    text: "Get up to speed on all of the new year’s most important cars with Top Gear’s one-stop guide.",
     icon: "paint-brush",
   },
   {
-    title: "Quotes",
-    text: "Your definitive decision for lavish or high-limit transport, whenever, anyplace in Melbourne.",
+    title: "Track",
+    text: "Divo is another Bugatti that was built for the track. It has a larger front grille for additional cooling, extra aero elements between the wheels, and a massive rear wing for more downforce. But it still packs a 1,500-hp quad-turbocharged engine underhood.",
     icon: "quote-left",
-    img: "/banner-2.jpg",
+    img: "/banner/banner-2.jpg",
   },
   {
-    title: "Inspiration",
-    text: "Find our spic and span Limolux vehicle administration, conveying unmatched class and accommodation.",
-    img: "/banner-3.jpg",
+    title: "Powerful",
+    text: "From a 1,500HP Hypercar to the World’s Most Powerful Bike, Here are the Best Vehicles of the Year.",
+    img: "/banner/banner-3.jpg",
     icon: "lightbulb",
   },
 ];
@@ -79,22 +79,22 @@ export const exploreWorlds = [
 
 export const homeCards = [
   {
-    img: "/home-car-1.jpg",
+    img: "/objective/home-car-1.jpg",
     title: "Our Vision",
     description:
-      "Transforming transportation with real-time vehicle tracking for peak efficiency and minimal downtime.",
+      "Our vision is to establish ourselves as the premier choice for hassle-free car rentals worldwide, delivering seamless experiences for travelers seeking convenience and reliability. We aim to set new standards in the industry by continuously innovating and adapting to meet the evolving needs of our customers, ensuring their journeys are always smooth and stress-free.",
   },
   {
-    img: "/car-6.jpg",
+    img: "/objective/car-6.jpg",
     title: "Our Mission",
     description:
-      "Empowering progress through innovative solutions and cutting-edge technology, our mission is to drive efficiency, enhance experiences, and create lasting value for our stakeholders.",
+      "We are dedicated to achieving this by leveraging innovative technology and providing personalized service, ensuring every customer receives exceptional care and attention. Our mission is to not only meet but exceed the expectations of our clients, offering a wide range of vehicles and flexible rental options to cater to diverse preferences and requirements.",
   },
   {
-    img: "/car-7.jpg",
-    title: "Our Approach",
+    img: "/objective/car-7.jpg",
+    title: "Who We Are",
     description:
-      "Crafting success through a strategic and adaptive approach, we navigate challenges with creativity, innovation, and a commitment to excellence.",
+      "At our core, we're a customer-centric car rental company committed to simplifying travel and enabling exploration. We prioritize flexibility, reliability, and affordability, ensuring unmatched convenience and peace of mind for every traveler. With a passionate team, innovative solutions, and unwavering dedication to excellence, we aim to make every journey memorable and stress-free.",
   },
 ];
 
