@@ -67,3 +67,22 @@ bun dev
 </body>
 
 </html>
+
+npx shadcn-ui@latest add carousel
+
+npm install embla-carousel-autoplay
+
+npm install framer-motion
+
+npx shadcn-ui@latest add card
+
+npm install react-icons
+
+npm install framer-motion@11.0.14
+
+
+
+
+"@/components/Explore";
+"./ExploreCard"
+"@/components/Subfooter";
