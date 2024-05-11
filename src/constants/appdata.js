@@ -21,8 +21,8 @@ export const links = [
     text: "Services",
   },
   {
-    link: "/our-fleet",
-    text: "Our Fleet",
+    link: "/car-trends",
+    text: "Car Trends",
     keyword: true,
   },
   {

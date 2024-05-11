@@ -11,7 +11,7 @@ const AboutUs = () => {
       <Banners
         img="/about/about-banner.jpg"
         title="ABOUT US"
-        text="We are an all-new chauffeured car service driving Victoria"
+        text="Nestled in San Pedro, Laguna, Philippines, our car rental service ensures a smooth drive with auto-refresh features, guaranteeing a hassle-free experience for every journey."
       />
       <TitleText
         title={<span className="">About Us</span>}
