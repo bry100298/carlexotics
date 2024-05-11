@@ -159,35 +159,52 @@ export const serviceList = [
 
 export const insights = [
   {
-    imgUrl: "/car-1.jpg",
-    title: "Luxury Sedan",
+    // imgUrl: "/car_trends/1/mx5.jpg",
+    imgUrls: [
+      "/car_trends/1/mx5.jpg",
+      "/car_trends/1/mx52.jpg",
+      "/car_trends/1/mx53.jpg",
+    ],
+    title: "The first batch of Mazda MX-5 RF units has been handed over",
     subtitle:
-      "Experience the encapsulation of luxury with Limolux's astonishing decision of premium vehicles. Whether you pick a Mercedes-Benz E-Class, BMW 5 Series, Lexus ES300, or a similar upscale model, our extent of lavishness vehicles is planned to lift every occasion. Lower yourself in the predictable blend of cutting edge development, unequaled comfort, and unparalleled sensibility all at a sensible expense. Find the allure of refinement as you set out on your cycle in style with Limolux.",
+      "The last day of the 2017 Manila International Auto Show was a pretty eventful one for Mazda Philippines, as the company finally turned over the inaugural batch of MX-5 RF units to their respective owners.There were 11 RF units and owners in total, composed of the most die-hard Mazda Miata fans in the country. The ceremony was headed by Mazda Philippines head Steven Tan, as well as a very special guest: MX-5 chief designer and model program manager Masahi Nakayama, who personally handed the proud new owners the keys to their vehicles.",
   },
   {
-    imgUrl: "/premium-sedan.jpg",
-    title: "Premium Sedan",
+    // imgUrl: "/car_trends/2/brz1.jpg",
+    imgUrls: [
+      "/car_trends/2/brz1.jpg",
+      "/car_trends/2/brz2.jpg",
+      "/car_trends/2/brz3.jpg",
+      "/car_trends/2/brz4.jpg",
+    ],
+    title: "You can now order the refreshed Subaru BRZ",
     subtitle:
       "Limolux presents a handpicked determination of the best extravagance vehicles for the individuals who request only awesome. Look over the lofty BMW 7 Series, the notorious Mercedes-Benz S-Class, the modern Audi A8, or practically identical tip top models. Our vehicles are not simply include pressed; they address the zenith of current extravagance cars. With Limolux, you'll make a stupendous entry, blowing some people's minds and delighting in outright style and solace. Lift your appearance and have an enduring effect with our impeccable fleet of luxury automobiles.",
   },
   {
-    imgUrl: "/car-3.jpg",
-    title: "Luxury SUV",
+    // imgUrl: "/car_trends/3/civic1.jpg",
+    imgUrls: [
+      "/car_trends/3/civic1.jpg",
+      "/car_trends/3/civic2.jpg",
+      "/car_trends/3/civic3.jpg",
+      "/car_trends/3/civic4.jpg",
+    ],
+    title: "The first official Honda Civic Type R in the Philippines",
     subtitle:
-      "Limolux offers an answer for those looking for both more than adequate baggage limit and positive extravagance. Investigate our determination of premium SUVs, including the Mercedes-Benz GLE, BMW X5, and comparable upscale models. These extravagance SUVs give similar remarkable elements tracked down in our extravagance cars while offering additional room for your possessions. Express farewell to splits the difference and raise your movement experience with Limolux's sumptuous SUVs, where style and capacity flawlessly coincide.",
+      "You know how they say that highly anticipated consumer products like the Samsung Galaxy S8 and iPhone 7 have such well-orchestrated marketing campaigns, that it seems like even the ‘leaks’ were planned? Well, that’s kind of how we felt with the Philippine debut of the Honda Civic Type R.",
   },
-  {
-    imgUrl: "/car-4.jpg",
-    title: "Van",
-    subtitle:
-      "Find the Mercedes-Benz V-Class, a top decision for obliging 5-6 travelers easily with more than adequate baggage space. This open extravagance individual’s mover flaunts enormous back seats and a liberal boot, guaranteeing a smooth and spacious excursion. Prestigious overall for its flexibility, the Mercedes V-Class sets the norm for moving travelers in style and refinement. Raise your gathering travel insight with this remarkable vehicle from Limolux.",
-  },
-  {
-    imgUrl: "/car-5.jpg",
-    title: "Transporter",
-    subtitle:
-      "Limolux gladly presents the Mercedes-Benz Runner and Renault Masterbus, ideal for obliging bigger gatherings of up to eleven individuals. These lofty vehicles are the favored decision for leaders, as well as those looking for consistent transportation for air terminal exchanges, weddings, and corporate occasions. Raise your gathering travel insight with Limolux, where extravagance, solace, and style combine. For requests, if it's not too much trouble, connect with us today. Your excursion with us starts with a straightforward call.",
-  },
+  // {
+  //   imgUrl: "/car-4.jpg",
+  //   title: "Van",
+  //   subtitle:
+  //     "Find the Mercedes-Benz V-Class, a top decision for obliging 5-6 travelers easily with more than adequate baggage space. This open extravagance individual’s mover flaunts enormous back seats and a liberal boot, guaranteeing a smooth and spacious excursion. Prestigious overall for its flexibility, the Mercedes V-Class sets the norm for moving travelers in style and refinement. Raise your gathering travel insight with this remarkable vehicle from Limolux.",
+  // },
+  // {
+  //   imgUrl: "/car-5.jpg",
+  //   title: "Transporter",
+  //   subtitle:
+  //     "Limolux gladly presents the Mercedes-Benz Runner and Renault Masterbus, ideal for obliging bigger gatherings of up to eleven individuals. These lofty vehicles are the favored decision for leaders, as well as those looking for consistent transportation for air terminal exchanges, weddings, and corporate occasions. Raise your gathering travel insight with Limolux, where extravagance, solace, and style combine. For requests, if it's not too much trouble, connect with us today. Your excursion with us starts with a straightforward call.",
+  // },
 ];
 
 export const steps = [

@@ -29,7 +29,7 @@ const Subfooter = () => {
             <IoCarSport className="text-third-color" />
           </span>
           <div className="flex flex-col gap-2">
-            <h5 className="text-2xl text-gray-900 font-bold">Our fleet</h5>
+            <h5 className="text-2xl text-gray-900 font-bold">Car Trends</h5>
             <p className="mb-4 text-base text-gray-500 border-l-4 border-third-color pl-4">
               Discover the Perfect Ride for Any Event - What’s Your Selection?
             </p>
