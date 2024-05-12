@@ -6,11 +6,11 @@ export const links = [
     text: "Home",
     exact: true,
   },
-  // {
-  //   link: "/booking?index=1",
-  //   text: "Transfers",
-  //   exact: true,
-  // },
+  {
+    link: "/booking?index=1",
+    text: "Transfers",
+    exact: true,
+  },
   // {
   //   link: "/local",
   //   text: "Local Transfers",
