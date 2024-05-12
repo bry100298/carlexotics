@@ -26,7 +26,7 @@ const Services = () => {
           marginBottom: "20px",
           position: "relative",
           padding: "20px",
-          background: "linear-gradient(to right, #ff8a00, #da1b60)",
+          background: "#445566", // Change the background color to a shade of grey or blue
           borderRadius: "10px",
           boxShadow: "0px 2px 4px rgba(0, 0, 0, 0.1)",
         }}
@@ -85,7 +85,13 @@ const Services = () => {
             >
               Honda
             </h3>
-            <div style={{ display: "flex", justifyContent: "space-between", padding: "20px" }}>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                padding: "20px",
+              }}
+            >
               <div style={{ flex: 1, marginRight: "10px" }}>
                 <img
                   src="/our_cars/honda/clarity.png"
@@ -170,7 +176,13 @@ const Services = () => {
             >
               Nissan
             </h3>
-            <div style={{ display: "flex", justifyContent: "space-between", padding: "20px"}}>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                padding: "20px",
+              }}
+            >
               <div style={{ flex: 1, marginRight: "10px" }}>
                 <img
                   src="/our_cars/nissan/altima.jpg"
