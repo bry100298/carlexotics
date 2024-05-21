@@ -86,3 +86,35 @@ npm install framer-motion@11.0.14
 "@/components/Explore";
 "./ExploreCard"
 "@/components/Subfooter";
+
+
+
+================================================================
+
+npx shadcn-ui@latest add form
+npm install react-hook-form
+
+npm install date-fns
+
+npm install country-state-city
+
+
+npm install react-leaflet leaflet
+
+npm install react-day-picker
+
+npm install @radix-ui/react-label
+npm install @radix-ui/react-popover
+npm install @radix-ui/react-select
+
+npm install mongoose
+npm install stripe
+
+npm install @stripe/stripe-js
+
+npm install nodemailer
+
+
+
+npm install autoprefixer --save-dev
+
