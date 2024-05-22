@@ -8,7 +8,7 @@ export const links = [
   },
   {
     link: "/booking?index=1",
-    text: "Transfers",
+    text: "Book Now",
     exact: true,
   },
   // {
@@ -32,6 +32,10 @@ export const links = [
   {
     link: "/about-us",
     text: "About Us",
+  },
+  {
+    link: "/sign-in",
+    text: "Login",
   },
 ];
 
