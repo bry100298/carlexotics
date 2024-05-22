@@ -118,3 +118,29 @@ npm install nodemailer
 
 npm install autoprefixer --save-dev
 
+
+
+================================================================
+<!-- Login Auth -->
+
+<!-- Login.tsx -->
+npm install @mantine/core
+
+npm install react-toastify
+
+<!-- notregistered notverified -->
+npm install @tabler/icons-react
+
+
+<!-- hooks -->
+npm install @mantine/hooks
+npm install @mantine/form
+
+
+
+================================================================
+
+npm install @fortawesome/free-brands-svg-icons
+npm install @fortawesome/react-fontawesome
+npm install next-auth
+
