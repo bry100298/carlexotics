@@ -15,7 +15,7 @@ const Services = () => {
       <Banners
         img="/our_cars/service10.jpg"
         title="Our Cars"
-        text="Here are some of our cars for rent right now.
+        text="Here are some of our cars for sale right now.
         "
         currentImageIndex={currentImageIndex}
         setCurrentImageIndex={setCurrentImageIndex}
@@ -40,7 +40,7 @@ const Services = () => {
             textShadow: "0px 2px 4px rgba(0, 0, 0, 0.5)",
           }}
         >
-          Cars for rent at the moment
+          Cars for sale at the moment
         </h2>
         <div
           style={{
