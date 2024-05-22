@@ -144,3 +144,8 @@ npm install @fortawesome/free-brands-svg-icons
 npm install @fortawesome/react-fontawesome
 npm install next-auth
 
+
+================================================================
+
+npm install @supabase/auth-helpers-nextjs
+npm install @supabase/supabase-js
