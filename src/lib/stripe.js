@@ -13,7 +13,7 @@ export const PaymentMethod = async (body) => {
     const transformedItem = [
       {
         price_data: {
-          currency: "usd",
+          currency: "php",
           product_data: {
             name: body.title,
           },
