@@ -29,7 +29,7 @@ const Feedback = () => {
         </motion.div>
         <motion.div variants={fadeIn("left", "tween", 0.2, 1)}>
           <img
-            src="/about/aboutus.png"
+            src="https://firebasestorage.googleapis.com/v0/b/mern-corpsite.appspot.com/o/carlexotics%2Fabout%2Faboutus.png?alt=media&token=aa726533-9422-47b8-a632-323a84cfc279"
             className="px-0 lg:px-4 xl:px-14 w-full h-auto object-cover rounded-3xl"
             alt=""
           />
