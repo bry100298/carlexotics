@@ -43,7 +43,7 @@ export const links = [
 export const profile = [
   {
     title: "Speed",
-    img: "/banner/banner-1.jpg",
+    img: "https://firebasestorage.googleapis.com/v0/b/mern-corpsite.appspot.com/o/carlexotics%2Fbanner%2Fbanner-1.jpg?alt=media&token=e83b240e-9f7a-45ef-84cf-156e7b45e009",
     text: "Get up to speed on all of the new year’s most important cars with Top Gear’s one-stop guide.",
     icon: "paint-brush",
   },
@@ -51,12 +51,12 @@ export const profile = [
     title: "Track",
     text: "Divo is another Bugatti that was built for the track. It has a larger front grille for additional cooling, extra aero elements between the wheels, and a massive rear wing for more downforce. But it still packs a 1,500-hp quad-turbocharged engine underhood.",
     icon: "quote-left",
-    img: "/banner/banner-2.jpg",
+    img: "https://firebasestorage.googleapis.com/v0/b/mern-corpsite.appspot.com/o/carlexotics%2Fbanner%2Fbanner-2.jpg?alt=media&token=a5310f7d-5ad1-4a43-8c2b-952ecaa3660f",
   },
   {
     title: "Powerful",
     text: "From a 1,500HP Hypercar to the World’s Most Powerful Bike, Here are the Best Vehicles of the Year.",
-    img: "/banner/banner-3.jpg",
+    img: "https://firebasestorage.googleapis.com/v0/b/mern-corpsite.appspot.com/o/carlexotics%2Fbanner%2Fbanner-3.jpg?alt=media&token=8182e66a-1f79-4139-ad8e-bfe61ebc092e",
     icon: "lightbulb",
   },
 ];
@@ -87,19 +87,19 @@ export const exploreWorlds = [
 
 export const homeCards = [
   {
-    img: "/objective/home-car-1.jpg",
+    img: "https://firebasestorage.googleapis.com/v0/b/mern-corpsite.appspot.com/o/carlexotics%2Fobjective%2Fhome-car-1.jpg?alt=media&token=00f7e13d-0ad5-46e2-8738-8992cf1d5342",
     title: "Our Vision",
     description:
       "Our vision is to establish ourselves as the premier choice for hassle-free car rentals worldwide, delivering seamless experiences for travelers seeking convenience and reliability. We aim to set new standards in the industry by continuously innovating and adapting to meet the evolving needs of our customers, ensuring their journeys are always smooth and stress-free.",
   },
   {
-    img: "/objective/car-6.jpg",
+    img: "https://firebasestorage.googleapis.com/v0/b/mern-corpsite.appspot.com/o/carlexotics%2Fobjective%2Fcar-6.jpg?alt=media&token=3b01d0e6-8339-459f-9a08-ec5bc888bd9e",
     title: "Our Mission",
     description:
       "We are dedicated to achieving this by leveraging innovative technology and providing personalized service, ensuring every customer receives exceptional care and attention. Our mission is to not only meet but exceed the expectations of our clients, offering a wide range of vehicles and flexible rental options to cater to diverse preferences and requirements.",
   },
   {
-    img: "/objective/car-7.jpg",
+    img: "https://firebasestorage.googleapis.com/v0/b/mern-corpsite.appspot.com/o/carlexotics%2Fobjective%2Fcar-7.jpg?alt=media&token=6599cfe7-d8a7-4fd9-8fc4-4c54105f26b0",
     title: "Who We Are",
     description:
       "At our core, we're a customer-centric car rental company committed to simplifying travel and enabling exploration. We prioritize flexibility, reliability, and affordability, ensuring unmatched convenience and peace of mind for every traveler. With a passionate team, innovative solutions, and unwavering dedication to excellence, we aim to make every journey memorable and stress-free.",
@@ -169,9 +169,9 @@ export const insights = [
   {
     // imgUrl: "/car_trends/1/mx5.jpg",
     imgUrls: [
-      "/car_trends/1/mx5.jpg",
-      "/car_trends/1/mx52.jpg",
-      "/car_trends/1/mx53.jpg",
+      "https://firebasestorage.googleapis.com/v0/b/mern-corpsite.appspot.com/o/carlexotics%2Fcar_trends%2F1%2Fmx5.jpg?alt=media&token=f76bbccf-c0d3-4572-bcf8-8035be7e7f78",
+      "https://firebasestorage.googleapis.com/v0/b/mern-corpsite.appspot.com/o/carlexotics%2Fcar_trends%2F1%2Fmx52.jpg?alt=media&token=0c3b55f2-95bd-4f10-9c17-0a607bc8875b",
+      "https://firebasestorage.googleapis.com/v0/b/mern-corpsite.appspot.com/o/carlexotics%2Fcar_trends%2F1%2Fmx53.jpg?alt=media&token=d1000d12-67b3-4dce-a5ec-3db700d9206bg",
     ],
     title: "The first batch of Mazda MX-5 RF units has been handed over",
     subtitle:
@@ -180,10 +180,10 @@ export const insights = [
   {
     // imgUrl: "/car_trends/2/brz1.jpg",
     imgUrls: [
-      "/car_trends/2/brz1.jpg",
-      "/car_trends/2/brz2.jpg",
-      "/car_trends/2/brz3.jpg",
-      "/car_trends/2/brz4.jpg",
+      "https://firebasestorage.googleapis.com/v0/b/mern-corpsite.appspot.com/o/carlexotics%2Fcar_trends%2F2%2Fbrz1.jpg?alt=media&token=32d4cec3-a89a-414a-b154-9725a13a3570",
+      "https://firebasestorage.googleapis.com/v0/b/mern-corpsite.appspot.com/o/carlexotics%2Fcar_trends%2F2%2Fbrz2.jpg?alt=media&token=3e2b2e55-eee2-4d38-a648-a8751b1999f4",
+      "https://firebasestorage.googleapis.com/v0/b/mern-corpsite.appspot.com/o/carlexotics%2Fcar_trends%2F2%2Fbrz3.jpg?alt=media&token=dc83f260-117f-4b11-a0b4-733b8742c2d4",
+      "https://firebasestorage.googleapis.com/v0/b/mern-corpsite.appspot.com/o/carlexotics%2Fcar_trends%2F2%2Fbrz4.jpg?alt=media&token=17ba108a-9a7b-49ab-9413-f3928f02b5f4",
     ],
     title: "You can now order the refreshed Subaru BRZ",
     subtitle:
@@ -192,10 +192,10 @@ export const insights = [
   {
     // imgUrl: "/car_trends/3/civic1.jpg",
     imgUrls: [
-      "/car_trends/3/civic1.jpg",
-      "/car_trends/3/civic2.jpg",
-      "/car_trends/3/civic3.jpg",
-      "/car_trends/3/civic4.jpg",
+      "https://firebasestorage.googleapis.com/v0/b/mern-corpsite.appspot.com/o/carlexotics%2Fcar_trends%2F3%2Fcivic1.jpg?alt=media&token=a6840895-d35f-4a86-90cb-81be0d5d1694",
+      "https://firebasestorage.googleapis.com/v0/b/mern-corpsite.appspot.com/o/carlexotics%2Fcar_trends%2F3%2Fcivic2.jpg?alt=media&token=3c90afe7-ec64-4b15-8fde-504e4f09f0f2",
+      "https://firebasestorage.googleapis.com/v0/b/mern-corpsite.appspot.com/o/carlexotics%2Fcar_trends%2F3%2Fcivic3.jpg?alt=media&token=7a1ccd82-70c1-4c4b-9634-7644fdedd971",
+      "https://firebasestorage.googleapis.com/v0/b/mern-corpsite.appspot.com/o/carlexotics%2Fcar_trends%2F3%2Fcivic4.jpg?alt=media&token=3bac63ce-6e9c-48c0-9d4f-93d9622e9a7d",
     ],
     title: "The first official Honda Civic Type R in the Philippines",
     subtitle:
