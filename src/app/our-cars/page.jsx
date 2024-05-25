@@ -13,7 +13,7 @@ const Services = () => {
   return (
     <div>
       <Banners
-        img="/our_cars/service10.jpg"
+        img="https://firebasestorage.googleapis.com/v0/b/mern-corpsite.appspot.com/o/carlexotics%2Four_cars%2Fservice10.jpg?alt=media&token=c3162661-8a44-42c0-bf61-fe2017d5a0e7"
         title="Our Cars"
         text="Here are some of our cars for sale right now.
         "
@@ -94,7 +94,7 @@ const Services = () => {
             >
               <div style={{ flex: 1, marginRight: "10px" }}>
                 <img
-                  src="/our_cars/honda/clarity.png"
+                  src="https://firebasestorage.googleapis.com/v0/b/mern-corpsite.appspot.com/o/carlexotics%2Four_cars%2Fhonda%2Fclarity.png?alt=media&token=29f23b51-8caa-4605-8c4a-9fe1cee9dd65"
                   alt="Clarity"
                   style={{
                     width: "100%",
@@ -116,7 +116,7 @@ const Services = () => {
               </div>
               <div style={{ flex: 1, marginRight: "10px" }}>
                 <img
-                  src="/our_cars/honda/hondaaccord.png"
+                  src="https://firebasestorage.googleapis.com/v0/b/mern-corpsite.appspot.com/o/carlexotics%2Four_cars%2Fhonda%2Fhondaaccord.png?alt=media&token=134e4274-54b4-41bb-9e35-45563dcfd81b"
                   alt="Honda Accord"
                   style={{
                     width: "100%",
@@ -138,7 +138,7 @@ const Services = () => {
               </div>
               <div style={{ flex: 1 }}>
                 <img
-                  src="/our_cars/honda/hondacivic.png"
+                  src="https://firebasestorage.googleapis.com/v0/b/mern-corpsite.appspot.com/o/carlexotics%2Four_cars%2Fhonda%2Fhondacivic.png?alt=media&token=5b99613e-fc1b-4b6b-87a6-a3d402c9f158"
                   alt="Honda Civic"
                   style={{
                     width: "100%",
@@ -185,7 +185,7 @@ const Services = () => {
             >
               <div style={{ flex: 1, marginRight: "10px" }}>
                 <img
-                  src="/our_cars/nissan/altima.jpg"
+                  src="https://firebasestorage.googleapis.com/v0/b/mern-corpsite.appspot.com/o/carlexotics%2Four_cars%2Fnissan%2Faltima.jpg?alt=media&token=30556530-32a8-49b1-b6c1-c5e4f30ee573"
                   alt="Altima"
                   style={{
                     width: "100%",
@@ -207,7 +207,7 @@ const Services = () => {
               </div>
               <div style={{ flex: 1, marginRight: "10px" }}>
                 <img
-                  src="/our_cars/nissan/maxima.jpg"
+                  src="https://firebasestorage.googleapis.com/v0/b/mern-corpsite.appspot.com/o/carlexotics%2Four_cars%2Fnissan%2Fmaxima.jpg?alt=media&token=f733376d-34b4-48e3-8908-408753ca38f2g"
                   alt="Maxima"
                   style={{
                     width: "100%",
@@ -229,7 +229,7 @@ const Services = () => {
               </div>
               <div style={{ flex: 1 }}>
                 <img
-                  src="/our_cars/nissan/sentra.jpg"
+                  src="https://firebasestorage.googleapis.com/v0/b/mern-corpsite.appspot.com/o/carlexotics%2Four_cars%2Fnissan%2Fsentra.jpg?alt=media&token=2ef728dd-76c0-4a2b-afca-16eb0c1be151"
                   alt="Sentra"
                   style={{
                     width: "100%",
@@ -252,7 +252,7 @@ const Services = () => {
             </div>
           </div>
           <img
-            src="/our_cars/footer-bg.png"
+            src="https://firebasestorage.googleapis.com/v0/b/mern-corpsite.appspot.com/o/carlexotics%2Four_cars%2Ffooter-bg.png?alt=media&token=95ac5458-df1f-42e3-8ea1-c10e1b1f9729"
             alt="Footer Border"
             style={{
               display: "block",
