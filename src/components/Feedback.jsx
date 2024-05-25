@@ -24,7 +24,7 @@ const Feedback = () => {
             </p>
           </div>
           <p className="mt-2.5 sm:mt-5 font-normal sm:text-lg text-md leading-6 text-slate-400">
-            “As a leading car rental provider, we are dedicated to delivering tailored solutions that cater to the unique needs of travelers globally. Our commitment to customer satisfaction drives us to offer high-quality vehicles, seamless booking processes, and personalized service. Backed by a team of passionate professionals, we ensure every aspect of your rental journey is smooth, reliable, and enjoyable. Whether it's a short-term rental or a long-term lease, we're here to make your travel experience hassle-free and memorable.”
+            “As a leading car rental provider, we are dedicated to delivering tailored solutions that cater to the unique needs of travelers globally. Our commitment to customer satisfaction drives us to offer high-quality vehicles, seamless booking processes, and personalized service. Backed by a team of passionate professionals, we ensure every aspect of your rental journey is smooth, reliable, and enjoyable. Whether it&apos;s a short-term rental or a long-term lease, we&apos;re here to make your travel experience hassle-free and memorable.”
           </p>
         </motion.div>
         <motion.div variants={fadeIn("left", "tween", 0.2, 1)}>
