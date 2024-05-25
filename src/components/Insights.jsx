@@ -5,7 +5,7 @@ import { staggerContainer } from "@/constants/motion";
 import styles from "@/constants/styles";
 import TitleText from "./TitleText";
 import { insights } from "@/constants/appdata";
-import InsightCard from "./InsightCard";
+import InsightCardWithSuspense from "./InsightCard";
 
 const Insights = ({ isForm, form }) => {
   return (
@@ -20,7 +20,7 @@ const Insights = ({ isForm, form }) => {
 
       <div className="mt-12 flex flex-col gap-9">
         {insights?.map((insight, index) => (
-          <InsightCard
+          <InsightCardWithSuspense
             key={index}
             {...insight}
             index={index}

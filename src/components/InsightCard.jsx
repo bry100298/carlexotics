@@ -66,4 +66,4 @@ const InsightCardWithSuspense = (props) => (
   </Suspense>
 );
 
-export default InsightCard;
+export default InsightCardWithSuspense;
