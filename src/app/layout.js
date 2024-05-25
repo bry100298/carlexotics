@@ -3,6 +3,8 @@ import Head from "next/head";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { MantineProvider, ColorSchemeScript } from "@mantine/core";
+import { UserSessionContextProvider } from "@/context/UserSessionContext";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -33,9 +35,13 @@ export default function RootLayout({ children }) {
         ))}
       </Head>
       <body className={inter.className}>
-        <Header />
-        {children}
-        <Footer />
+        <MantineProvider>
+          <UserSessionContextProvider>
+            <Header />
+            {children}
+            <Footer />
+          </UserSessionContextProvider>
+        </MantineProvider>
       </body>
     </html>
   );
