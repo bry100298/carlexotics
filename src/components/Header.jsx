@@ -12,7 +12,7 @@ const Header = () => {
     <div
       className="shadow-lg h-16 flex justify-between items-center md:px-[10%]"
       style={{
-        backgroundImage: "url('/lead-border.png')",
+        backgroundImage: "url('https://firebasestorage.googleapis.com/v0/b/mern-corpsite.appspot.com/o/carlexotics%2Flead-border.png?alt=media&token=4743aeb0-1b24-42a1-92f6-acf0d951da27')",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
       }}
