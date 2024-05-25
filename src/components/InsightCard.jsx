@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Suspense } from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "@/constants/motion";
 import { useRouter, useSearchParams } from "next/navigation";
@@ -45,7 +45,7 @@ const InsightCard = ({ imgUrls, title, subtitle, index, isForm, form }) => {
                 option == index
                   ? "bg-third-color text-white"
                   : "bg-slate-200 text-slate-500"
-              } h-12 teext-md px-7 rounded-full`}
+              } h-12 text-md px-7 rounded-full`}
               disabled={option == index ? true : false}
             >
               Select
@@ -59,5 +59,11 @@ const InsightCard = ({ imgUrls, title, subtitle, index, isForm, form }) => {
     </motion.div>
   );
 };
+
+const InsightCardWithSuspense = (props) => (
+  <Suspense fallback={<div>Loading...</div>}>
+    <InsightCard {...props} />
+  </Suspense>
+);
 
 export default InsightCard;
