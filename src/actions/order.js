@@ -21,6 +21,12 @@ export const orderedMail = async (id) => {
       subject: "welcome to CarLEXotics",
       message: `hi there, you have booking`,
     });
+    await sendEmail({
+      order: getOrder,
+      email: "alexa.triseven@gmail.com",
+      subject: "welcome to CarLEXotics",
+      message: `hi there, you have booking`,
+    });
     return getOrder;
   } catch (error) {}
 };
