@@ -9,7 +9,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Label } from "./ui/label";
-const CitySelect = ({ control, id, label, placeholder, list, setValue }) => {
+const SelectForm = ({ control, id, label, placeholder, list }) => {
   return (
     <div>
       <Label htmlFor={id} className="font-semibold text-md">
@@ -20,15 +20,7 @@ const CitySelect = ({ control, id, label, placeholder, list, setValue }) => {
         name={id}
         render={({ field }) => (
           <FormItem>
-            <Select
-              onValueChange={(val) => {
-                field.onChange(val);
-                const res = val?.split(",");
-                const result = [parseFloat(res[0]), parseFloat(res[1])];
-                setValue(result);
-              }}
-              defaultValue={field.value}
-            >
+            <Select onValueChange={field.onChange} defaultValue={field.value}>
               <FormControl>
                 <SelectTrigger>
                   <SelectValue placeholder={placeholder} />
@@ -36,13 +28,8 @@ const CitySelect = ({ control, id, label, placeholder, list, setValue }) => {
               </FormControl>
               <SelectContent>
                 {list?.map((item, index) => (
-                  // {list?.map((item) => (
-                  <SelectItem
-                    key={index}
-                    // key={`${item.name}-${item.latitude}-${item.longitude}`}
-                    value={`${item?.latitude},${item?.longitude}`}
-                  >
-                    {item.name}
+                  <SelectItem key={index} value={`${item}`}>
+                    {item}
                   </SelectItem>
                 ))}
               </SelectContent>
@@ -54,4 +41,4 @@ const CitySelect = ({ control, id, label, placeholder, list, setValue }) => {
   );
 };
 
-export default CitySelect;
+export default SelectForm;
