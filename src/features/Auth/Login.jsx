@@ -43,21 +43,44 @@ export function Login(props) {
     const { error, data } = await logInWithEmailPassword(email, password);
     setIsSubmitting(false);
 
+    console.log("Data:", data); // Log the data object
+
     if (error && error.message === errorMessage) {
       console.log(error);
       setNotRegistered(true);
     } else {
-      if (data.user == null || data.session == null) {
+      // Check if the user is logged in and the account is confirmed
+      if (data.user && data.user.confirmed) {
+        form.reset();
+        setNotRegistered(false);
+        setNotVerified(false);
+
+        push("/");
+        toast.success("Login Successful");
+      } else {
+        // Account is not confirmed
         setNotVerified(true);
       }
-      form.reset();
-      setNotRegistered(false);
-      setNotVerified(false);
+      // if (data.user == null || data.session == null) {
+      //   // Check if the user account is not confirmed
+      //   setNotVerified(true);
+      // } else {
+      //   form.reset();
+      //   setNotRegistered(false);
+      //   setNotVerified(false);
 
-      push("/");
-      // toast.success("Login Successful", {
-      //   position: toast.POSITION.TOP_CENTER,
-      // });
+      //   push("/");
+      //   toast.success("Login Successful");
+      // }
+      // form.reset();
+      // setNotRegistered(false);
+      // setNotVerified(false);
+
+      // push("/");
+      // // toast.success("Login Successful", {
+      // //   position: toast.POSITION.TOP_CENTER,
+      // // });
+      // toast.success("Login Successful");
     }
   };
 
