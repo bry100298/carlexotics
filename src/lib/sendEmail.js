@@ -7,7 +7,8 @@ export const sendEmail = async (options) => {
     port: process.env.NEXT_PUBLIC_SMTP_PORT,
     service: process.env.NEXT_PUBLIC_SMTP_SERVICE,
     auth: {
-      user: process.env.NEXT_PUBLIC_SMTP_EMAIL,
+      // user: process.env.NEXT_PUBLIC_SMTP_EMAIL,
+      user: process.env.NEXT_PUBLIC_SMTP_MAIL,
       pass: process.env.NEXT_PUBLIC_SMTP_PASSWORD,
     },
   });
@@ -31,7 +32,7 @@ export const sendEmail = async (options) => {
         <body style="background-color: #F2F5F8; margin: 0; padding: 20px 0px; font-family: Arial, sans-serif;">
             <div style="max-width: 600px; width: 90%; margin: 20px auto 10px auto; padding: 0px; background-color: #ffffff; border-top: 5px solid #0233E4;">
                 <div style="max-width: 80%; width: 100%; padding: 15px 0px; border-bottom: 1px solid #ebebeb; margin:auto">
-                       <img src="https://cdn.logo.com/hotlink-ok/logo-social.png" style="margin: auto; display: flex; height: 55px; max-width: 180px; object-fit: contain; object-position: center;" alt="proptexx">
+                       <img src="https://firebasestorage.googleapis.com/v0/b/mern-corpsite.appspot.com/o/carlexotics%2Ficon%2Ffavicon.png?alt=media&token=9b1a3105-1ea5-49b9-ba54-31e967902159" style="margin: auto; display: flex; height: 55px; max-width: 180px; object-fit: contain; object-position: center;" alt="proptexx">
                 </div>
                 <div style="padding: 40px 20px;">
                   <br/>
