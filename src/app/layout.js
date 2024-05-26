@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { MantineProvider, ColorSchemeScript } from "@mantine/core";
 import { UserSessionContextProvider } from "@/context/UserSessionContext";
+import { ToastContainer } from "react-toastify";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -39,6 +40,7 @@ export default function RootLayout({ children }) {
           <UserSessionContextProvider>
             <Header />
             {children}
+            <ToastContainer />
             <Footer />
           </UserSessionContextProvider>
         </MantineProvider>
