@@ -56,7 +56,7 @@ const Header = () => {
                     : "text-gray-300 font-bold"
                 }`}
                 href={link.link}
-                exact={link.exact}
+                // exact={link.exact}
               >
                 <span>{link.text}</span>
               </Link>

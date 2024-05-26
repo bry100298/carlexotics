@@ -9,7 +9,7 @@ export const links = [
   {
     link: "/booking?index=1",
     text: "Book Now",
-    exact: true,
+    // exact: true,
   },
   // {
   //   link: "/local",
