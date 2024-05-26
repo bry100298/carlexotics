@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import { MantineProvider, ColorSchemeScript } from "@mantine/core";
 import { UserSessionContextProvider } from "@/context/UserSessionContext";
 import { ToastContainer } from "react-toastify";
+import "@mantine/core/styles.css";
 
 const inter = Inter({ subsets: ["latin"] });
 

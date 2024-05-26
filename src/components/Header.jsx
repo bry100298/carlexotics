@@ -4,6 +4,7 @@ import Link from "next/link";
 import { links } from "@/constants/appdata";
 import { usePathname } from "next/navigation";
 import { useUserSessionContext } from "@/context/UserSessionContext"; // Adjust the import path accordingly
+import ProfileMenu from "@/components/ProfileMenu";
 
 const Header = () => {
   const pathname = usePathname();
@@ -40,13 +41,44 @@ const Header = () => {
         <div className="w-5 h-0.5 bg-black"></div>
         <div className="w-5 h-0.5 bg-black"></div>
       </div>
-      <div
+      {/* <div
         className={` ${
           isMenu ? "flex flex-col absolute top-16 w-full" : "hidden md:flex"
           // } gap-5 md:flex-row md:static bg-white md:w-auto text-center`}
         } gap-5 md:flex-row md:static md:w-auto text-center`}
-      >
-        {links?.map((link) =>
+      > */}
+      
+        <div className="flex items-center gap-5 md:static md:w-auto text-center">
+        {/* Conditional rendering of ProfileMenu or Login link */}
+
+        {links?.map((link) => {
+          // Check if the link is "Login" and there is a session, then skip rendering it
+          if (link.text === "Login" && session) {
+            return null;
+          }
+          // Check if the link is "Book Now" and there is no session, then skip rendering it
+          if (link.text === "Book Now" && !session) {
+            return null;
+          }
+          return (
+            <div key={link.link}>
+              <Link
+                className={`${
+                  pathname === link.link
+                    ? "text-third-color font-bold"
+                    : "text-gray-300 font-bold"
+                }`}
+                href={link.link}
+              >
+                <span>{link.text}</span>
+              </Link>
+            </div>
+          );
+        })}
+
+        {/* If there's a session, display ProfileMenu */}
+        {session && <ProfileMenu />}
+        {/* {links?.map((link) =>
           session || link.text !== "Book Now" ? (
             <div key={link.link}>
               <Link
@@ -62,7 +94,7 @@ const Header = () => {
               </Link>
             </div>
           ) : null
-        )}
+        )} */}
       </div>
     </div>
   );
